@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <title>Page 2</title>
+  </head>
+  <body>
+    <div class="image-container">
+      <div id="image1">
+        <img src="./assets/photos/monkey.jpg" alt="monkey" />
+        <input type="number" id="sticker1" min="0" max="10" value="0"/>
+      </div>
+      <div id="image2">
+        <img src="./assets/photos/roga.jpg" alt="roga" />
+        <input type="number" id="sticker2" min="0" max="10" value="0" />
+      </div>
+      <div id="image3">
+        <img src="./assets/photos/sausage.jpg" alt="sausage" />
+        <input type="number" id="sticker3" min="0" max="10" value="0" />
+      </div>
+    </div>
+    <button onclick="countStickers()">Calcular</button>
+    <p id="resultado"></p>
+    <div class="buttons">
+      <button onclick="Page1()">Page 1</button>
+      <button onclick="Page3()">Page 3</button>
+    </div>
+    <script src="./index2.js"></script>
+  </body>
+</html>

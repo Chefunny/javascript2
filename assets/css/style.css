@@ -1,0 +1,53 @@
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ajusta la altura del contenedor */
+}
+
+img {
+    max-width: 100%; /* Asegura que la imagen no sea más grande que su contenedor */
+    height: auto;
+    width:400px;
+    cursor: pointer;
+}
+
+.red-border {
+    border: 4px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    padding:5%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%; /* Hacer el botón redondo */
+    background-color: #ddf74f;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+button:hover {
+    background-color: #b30000;
+    color:white;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
